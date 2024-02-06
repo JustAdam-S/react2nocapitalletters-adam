@@ -5,8 +5,8 @@ const Patient = (props) => {
            <h1>Profile Information</h1>
            <h1>Name: {props.name} </h1>
            <h1>Age: {props.age} </h1>
+           <h1>Age: {props.email} </h1>
            {props.children}
-
            </>
        );
     }
